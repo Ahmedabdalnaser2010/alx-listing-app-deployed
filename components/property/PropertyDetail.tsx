@@ -126,7 +126,7 @@ const PropertyDetail: React.FC<{
                 </div>
 
                 <div className="sm:w-[30%] m-auto sm:m-0 ">
-                    <BookingSection price={property.price} id={property.id} />
+                    <BookingSection price={property.price} />
                 </div>
             </div>
 
