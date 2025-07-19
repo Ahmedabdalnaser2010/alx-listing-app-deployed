@@ -109,7 +109,7 @@ const PropertyDetail: React.FC<{
                         <h2 className="text-2xl font-semibold">What this place offers</h2>
                         <p className="py-2">Each home is fully equipped to meet your needs, with ample space and privacy.</p>
                         <ul className="flex flex-wrap space-x-4 space-y-2 mt-4">
-                            {property.offers.amenities.map((amenity, index) => (
+                            {property.offers.amenities?.map((amenity, index) => (
                                 <li key={index} className="h-[40px] bg-gray-100 p-2 rounded-xl">
                                     {amenity}
                                 </li>
