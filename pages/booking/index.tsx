@@ -36,8 +36,14 @@ export default function BookingForm() {
         try {
             await axios.post(`${process.env.NEXT_PUBLIC_API_BASE_URL}/bookings`, formData);
             alert("Booking confirmed!");
-        } catch (error) {
-            setError(error);
+        } catch (err) {
+            if (axios.isAxiosError(err)) {
+                setError(err.response?.data?.message || err.message);
+            } else if (err instanceof Error) {
+                setError(err.message);
+            } else {
+                setError("An unknown error occurred");
+            }
         } finally {
             setLoading(false);
         }
