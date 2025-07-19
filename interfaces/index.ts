@@ -9,7 +9,7 @@ interface TOffers {
     bed: string;
     shower: string;
     occupants: string;
-    amenities: string[];
+    amenities?: string[];
 }
 
 interface TReviewList {
