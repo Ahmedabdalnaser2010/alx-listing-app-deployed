@@ -63,20 +63,20 @@ const PropertyDetail: React.FC<{
                 {/* Add more images */}
             </div>
 
-            <div className=" flex space-x-2 mt-6 py-4 text-secondaryDarkColor max-w-[370px] ">
-                <div className="flex items-center justify-center border-[1.34px] border-shimmer min-w-[120px] rounded-full px-2 py-1">
-                    <Image src={"/assets/icons/bed.svg"} alt="bed" width={20.36} height={20.36} />
-                    <p className="ml-1 text-[12.95px] font-medium">{property.offers.bed} Bedrooms</p>
+            <div className=" flex space-x-2 mt-6 py-4 text-secondaryDarkColor max-w-[370px]  ">
+                <div className="flex items-center justify-center border-[1.34px] border-shimmer  rounded-full px-2 py-1">
+                    <Image src={"/assets/icons/bed.svg"} alt="bed" width={15.36} height={15.36} />
+                    <p className="ml-1 text-xs font-medium">{property.offers.bed} Bedrooms</p>
                 </div>
-                <div className="flex items-center justify-center border-[1.34px] border-shimmer min-w-[120px] rounded-full px-2 py-1 ">
-                    <Image src={"/assets/icons/bathtub.svg"} alt="shower" width={20.36} height={20.36} />
+                <div className="flex items-center justify-center border-[1.34px] border-shimmer rounded-full px-2 py-1 ">
+                    <Image src={"/assets/icons/bathtub.svg"} alt="shower" width={15.36} height={15.36} />
 
-                    <p className="ml-1 text-[12.95px] font-medium">{property.offers.shower} Bathrooms</p>
+                    <p className="ml-1 text-xs font-medium">{property.offers.shower} Bathrooms</p>
                 </div>
-                <div className="flex items-center justify-center border-[1.34px] border-shimmer min-w-[120px] rounded-full px-2 py-1">
-                    <Image src={"/assets/icons/people.svg"} alt="people" width={20.36} height={20.36} />
+                <div className="flex items-center justify-center border-[1.34px] border-shimmer  rounded-full px-2 py-1">
+                    <Image src={"/assets/icons/people.svg"} alt="people" width={15.36} height={15.36} />
 
-                    <p className="ml-1 text-[12.95px] font-medium">{property.offers.occupants} guests</p>
+                    <p className="ml-1 text-xs font-medium">{property.offers.occupants} guests</p>
                 </div>
             </div>
 
@@ -86,7 +86,7 @@ const PropertyDetail: React.FC<{
             <hr className="text-shimmer" />
             <div className="flex justify-between items-start sm:flex-row flex-col">
 
-                <div className="md:w-[60%] w-[100%] text-sm">
+                <div className="md:w-[60%] w-[100%] text-xs">
                     <div className="flex items-center space-x-2 pt-4 border-b-2 border-shimmer ">
                         <Link className="px-2 pb-2 h-8 hover:border-b-2 
                 border-primaryColor hover:text-primaryColor" href="#description">Description</Link>

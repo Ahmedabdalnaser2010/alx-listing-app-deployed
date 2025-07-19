@@ -55,10 +55,10 @@ const Header = () => {
 
 
                     <div className='block lg:hidden'>
-                        <div className="datePicker h-[58px] w-[318px] pl-[30px] pr-[11px] border-shimmer border-[1px]  rounded-[60px] py-[8px] flex items-center justify-center ">
+                        <div className="datePicker h-[58px] w-[280px] pl-[20px] pr-[5px] border-shimmer border-[1px]  rounded-[60px] py-[8px] flex items-center justify-center ">
                             <div className="flex flex-col justify-center items-start gap-[6px] w-[235px] h-[40px] ">
                                 <div className='w-[185px]'>
-                                    <span className="font-medium  text-sm">Where to</span>
+                                    <span className="font-medium text-sm">Where to</span>
                                     <div className="flex items-center gap-[9px] font-normal text-[13px] text-[#BEBEBE]" >
                                         Location <span className='w-[3px] h-[3px] bg-[#9C9C9C] rounded-[50%]'></span> Data <span className='w-[3px] h-[3px] bg-[#9C9C9C] rounded-[50%]'></span> Add guest
                                     </div>

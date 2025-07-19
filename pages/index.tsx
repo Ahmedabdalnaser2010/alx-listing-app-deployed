@@ -16,7 +16,7 @@ const Home = () => {
     return (
         <div className='max-w-[1728px] m-auto'>
             <div className={`md:hidden`}><Filter /></div>
-            <div className="box-content mt-[37px] mx-[21px] lg:mx-[40px] 2xl:mx-[60px] min-w-[389px] lg:min-w-[944px] 2xl:w-[full] h-[296px] lg:h-[421px] 2xl:h-[481px] relative rounded-[11.13px] lg:rounded-[27px] overflow-hidden">
+            <div className=" box-content mt-[37px] mx-[21px] lg:mx-[40px] 2xl:mx-[60px] min-w-[340px] lg:min-w-[944px] 2xl:w-[full] h-[296px] lg:h-[421px] 2xl:h-[481px] relative rounded-[11.13px] lg:rounded-[27px] overflow-hidden">
                 <Image src={"/assets/Main.jpg"} fill alt="main" className="object-cover" />
                 <div className="w-full h-full pt-[87px] lg:pt-[66px] 2xl:pt-[82px]  flex flex-col justify-centter items-baseline  absolute text-background  ">
                     <h1 className={`font-semibold w-[260.84px] h-[60px] lg:w-[633px] lg:h-[145px] 2xl:w-[867px] 2xl:h-[198px]  text-[28.28px] lg:text-[68.63px] 2xl:text-[94px] self-center text-center leading-[29.78px] lg:leading-[72.28px] 2xl:leading-[99px] `}>

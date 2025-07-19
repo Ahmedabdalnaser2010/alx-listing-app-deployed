@@ -14,7 +14,7 @@ const Filter = () => {
 
     return (
         <>
-            <div className='md:hidden'>
+            <div className='md:hidden '>
                 <div className='h-[37px] mt-[30px]  overflow-x-scroll flex justify-start scrollbar-hide'>
                     <div className='flex justify-center border-[1.09px] ml-[21px] border-[#E9E9E9] min-w-[37px] h-full rounded-full mr-[5px]'>
                         <Image src={"./assets/icons/Filter.svg"} alt='filter' width={17.41} height={17.41} />
@@ -59,7 +59,7 @@ const Filter = () => {
                     </div>
                     <div className='flex justify-center border-[1.09px]  border-[#E9E9E9] min-w-[51px] h-[51px] rounded-full ml-[31px] cursor-pointer relative' onClick={() => setShowList(!showList)}>
                         <Image src={"/assets/icons/Alt Arrow Down.svg"} alt='filter' width={24} height={24} />
-                        <ul className={`${showList ? `flex` : `hidden`} flex-col absolute bg-white top-[60px]`}>
+                        <ul className={`${showList ? `flex` : `hidden`} flex-col absolute bg-white top-[60px] z-20`}>
                             {[...features].map((el, index) => {
                                 return (
                                     <li onClick={() => setFilter(el)}

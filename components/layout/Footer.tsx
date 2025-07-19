@@ -12,7 +12,7 @@ const Footer = () => {
                             <Image src={"/assets/logos/Alx footer.svg"} alt="alx immage" width={58.73} height={30.6} />
 
                         </div>
-                        <p className='pl-[26px] lg:pl-[116px] 2xl:pl-[59.55px] font-medium text-[11px] 2xl:text-[16px] 2xl:w-[640.45px]  mt-[38.44px] w-[385px] lg:w-[645px]'>
+                        <p className='pl-[26px] lg:pl-[116px] 2xl:pl-[59.55px] font-medium text-[11px] 2xl:text-[16px] 2xl:w-[640.45px]  mt-[38.44px] w-[375px] lg:w-[645px]'>
                             ALX is a platform where travelers can discover and book unique, comfortable, and affordable lodging options worldwide. From cozy city apartments and tranquil countryside retreats to exotic beachside villas, ALX connects you with the perfect place to stay for any trip.
                         </p>
                     </div>

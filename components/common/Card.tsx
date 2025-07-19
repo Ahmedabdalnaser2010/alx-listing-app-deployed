@@ -57,11 +57,11 @@ const Card = () => {
 
 
     return (
-        <div className="max-w-[1728px] grid grid-cols-1 min-[900px]:grid-cols-2 2xl:grid-cols-4 sm:gap-[37.13px] min-md:gap-[31px] justify-items-center 2xl:min-w-[1607.23px] lg:w-[944px] m-auto mt-[30px]">
+        <div className="max-w-[1728px] grid grid-cols-1 min-[900px]:grid-cols-2 2xl:grid-cols-4 gap-[37.13px] min-md:gap-[31px] justify-items-center 2xl:min-w-[1607.23px] lg:w-[944px] m-auto mt-[30px]">
             {propertyData?.map((item) => (
 
-                <Link href={`/property/${item.id}`} key={item.id} className="h-[435px] lg:h-[505px] lg:w-[378.56px] md:w-[453.43px] 2xl:h-[422.7px] w-[390px] cursor-pointer  flex flex-col justify-between">
-                    <div className="h-[308.41px] lg:h-[358.58px] 2xl:h-[299.37px] relative">
+                <Link href={`/property/${item.id}`} key={item.id} className="h-[435px] lg:h-[505px] lg:w-[378.56px] md:w-[453.43px] 2xl:h-[422.7px] w-[360px] cursor-pointer  flex flex-col justify-between">
+                    <div className="h-[308.41px]  lg:h-[358.58px] 2xl:h-[299.37px] relative">
                         <Image className="rounded-lg h-[262.71px] 2xl:h-[255px] lg:h-[305.44px]" src={item.image} alt={item.name} fill />
 
                     </div>
