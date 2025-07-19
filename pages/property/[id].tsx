@@ -8,7 +8,7 @@ export default function PropertyDetailPage() {
     const { id } = router.query;
     const [property, setProperty] = useState(null);
     const [loading, setLoading] = useState(true);
-    const [error, setError] = useState(null);
+    const [error, setError] = useState<string | null>(null);
 
     useEffect(() => {
         if (!id) return;
